@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { clearError, setError, setLoading, setUser } from '../../redux/slices/authSlice';
 import { current } from '@reduxjs/toolkit';
 import axios from 'axios';
-import "../../css/auth/editprofile.css";
+import "../../css/auth/EditProfile.css";
 import { CiUser } from 'react-icons/ci';
 import Input from '../common/Input';
 
