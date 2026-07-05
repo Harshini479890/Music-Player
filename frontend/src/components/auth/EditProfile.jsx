@@ -5,7 +5,7 @@ import { current } from '@reduxjs/toolkit';
 import axios from 'axios';
 import "../../css/auth/editprofile.css";
 import { CiUser } from 'react-icons/ci';
-import Input from '../common/input';
+import Input from '../common/Input';
 
 const EditProfile = ({ onClose }) => {
     const dispatch = useDispatch();

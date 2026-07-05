@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from "axios";
 import "../../css/auth/ResetPassword.css";
-import Input from '../common/input';
+import Input from '../common/Input';
 import { useNavigate, useParams } from 'react-router-dom';
 
 const ResetPassword = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Input from '../common/input'
+import Input from '../common/Input'
 import { useDispatch, useSelector } from 'react-redux';
 import validator from "validator";
 import { clearError, setError, setLoading, setUser } from '../../redux/slices/authSlice';
